@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Informativa sulla privacy — MyScadenze</title>
   <meta name="description"
-    content="Informativa sulla privacy dell'app MyScadenze: nessun dato raccolto, nessuna trasmissione, tutto resta sul dispositivo.">
+    content="Informativa sulla privacy dell'app MyScadenze: nessun dato raccolto, nessuna trasmissione, tutto resta sul dispositivo. — MyScadenze privacy policy: no data collected, nothing transmitted, everything stays on your device.">
   <style>
     :root {
       color-scheme: light dark;
@@ -64,6 +64,29 @@
       padding-left: 1.25rem;
     }
 
+    .lang {
+      display: flex;
+      justify-content: flex-end;
+      gap: .25rem;
+      align-items: center;
+      font-size: .9rem;
+      color: var(--tenue);
+      margin-bottom: 1.5rem;
+    }
+
+    .lang a {
+      color: var(--tenue);
+      text-decoration: none;
+      padding: .1rem .4rem;
+      border-radius: .3rem;
+    }
+
+    .lang a[aria-current="true"] {
+      color: var(--testo);
+      font-weight: 700;
+      background: var(--evidenza);
+    }
+
     .meta {
       color: var(--tenue);
       font-size: .9rem;
@@ -102,105 +125,252 @@
 <body>
   <main>
 
-    <h1>Informativa sulla privacy</h1>
-    <p class="meta">
-      App: <strong>MyScadenze</strong><br>
-      Ultimo aggiornamento: <span>11-08-2026</span>
-    </p>
+    <nav class="lang" aria-label="Lingua / Language">
+      <a href="?lang=it" data-switch="it" hreflang="it">Italiano</a>
+      <span aria-hidden="true">·</span>
+      <a href="?lang=en" data-switch="en" hreflang="en">English</a>
+    </nav>
 
-    <div class="sintesi">
-      <p><strong>Questa app non raccoglie, non trasmette e non condivide alcun dato.</strong></p>
-      <p>
-        Tutto quello che inserisci resta sul tuo telefono. Non esiste alcun account, nessun server,
-        nessuna statistica d'uso, nessuna pubblicità e nessun servizio di terze parti. La versione
-        pubblicata dell'app non ha nemmeno il permesso di accedere a Internet.
+    <!-- ITALIANO -->
+    <div data-lang="it">
+
+      <h1>Informativa sulla privacy</h1>
+      <p class="meta">
+        App: <strong>MyScadenze</strong><br>
+        Ultimo aggiornamento: <span>11-08-2026</span>
       </p>
+
+      <div class="sintesi">
+        <p><strong>Questa app non raccoglie, non trasmette e non condivide alcun dato.</strong></p>
+        <p>
+          Tutto quello che inserisci resta sul tuo telefono. Non esiste alcun account, nessun server,
+          nessuna statistica d'uso, nessuna pubblicità e nessun servizio di terze parti. La versione
+          pubblicata dell'app non ha nemmeno il permesso di accedere a Internet.
+        </p>
+      </div>
+
+      <h2>Quali dati inserisci, e dove restano</h2>
+      <p>
+        Usando l'app puoi registrare veicoli e animali domestici — nome, targa, marca, modello, razza,
+        data di nascita, numero di microchip — le loro scadenze, i promemoria e le spese sostenute, con
+        importi, date e note.
+      </p>
+      <p>
+        Questi dati vengono salvati <strong>esclusivamente in un archivio locale sul tuo
+          dispositivo</strong>, nell'area riservata all'app. Non vengono inviati da nessuna parte, e
+        nemmeno chi ha sviluppato l'app può vederli.
+      </p>
+
+      <h2>Backup: l'unico momento in cui i dati escono dal telefono</h2>
+      <p>
+        Dalle impostazioni puoi esportare tutti i tuoi dati in un file. Succede <strong>solo quando lo
+          chiedi tu</strong>, e sei tu a scegliere dove finisce il file attraverso il menu di condivisione
+        del tuo telefono: un servizio di archiviazione online, un messaggio, un'altra app, la memoria del
+        dispositivo.
+      </p>
+      <p>
+        Da quel momento quel file è sotto il tuo controllo e segue le regole del servizio dove hai scelto
+        di metterlo. Contiene tutti i tuoi dati in chiaro, in un formato leggibile: trattalo come
+        tratteresti un documento personale.
+      </p>
+      <p>L'app non partecipa a questa scelta e non conserva alcuna copia del file.</p>
+
+      <h2>Notifiche</h2>
+      <p>
+        I promemoria sono programmati e mostrati dal tuo telefono. Il testo degli avvisi viene composto
+        sul dispositivo e non passa da alcun server: nessuna notifica push, nessun servizio di
+        messaggistica.
+      </p>
+
+      <h2>Permessi richiesti</h2>
+      <ul>
+        <li>
+          <strong>Notifiche</strong> — per mostrarti i promemoria delle scadenze. È la funzione
+          principale dell'app.
+        </li>
+        <li>
+          <strong>Avvio al riavvio del dispositivo</strong> — quando spegni e riaccendi il telefono, il
+          sistema cancella tutti gli avvisi programmati: questo permesso serve solo a rimetterli in coda,
+          così non smetti di ricevere i promemoria che avevi impostato.
+        </li>
+      </ul>
+      <p>
+        L'app non chiede accesso a posizione, fotocamera, microfono, contatti, rubrica o archivio.
+      </p>
+
+      <h2>Cancellare i tuoi dati</h2>
+      <p>
+        <strong>Disinstallare l'app elimina definitivamente tutti i dati</strong> che contiene. Non
+        essendoci alcun server, non resta copia da nessuna parte e non c'è nulla da richiedere a nessuno.
+      </p>
+      <p>
+        Attenzione: i file di backup che hai esportato <strong>non</strong> vengono eliminati insieme
+        all'app. Se non li vuoi più, cancellali tu dal luogo in cui li hai salvati.
+      </p>
+
+      <h2>Minori</h2>
+      <p>
+        L'app non è rivolta ai bambini e non raccoglie consapevolmente dati di minori. Del resto, non
+        raccoglie dati di nessuno.
+      </p>
+
+      <h2>Modifiche a questa informativa</h2>
+      <p>
+        Se in futuro l'app introdurrà funzioni che comportano il trattamento di dati — per esempio un
+        account con la sincronizzazione fra più dispositivi — questa informativa verrà aggiornata
+        <strong>prima</strong> che quelle funzioni siano disponibili, e la modifica sarà evidenziata in
+        questa pagina.
+      </p>
+
+      <h2>Contatti</h2>
+      <p>
+        Per qualunque domanda su questa informativa puoi scrivere a
+        <span>giftgenius.ad@gmail.com</span>.
+      </p>
+
+      <footer>
+        MyScadenze — scadenze e spese di veicoli, animali e casa, tutto sul tuo telefono.
+      </footer>
+
     </div>
 
-    <h2>Quali dati inserisci, e dove restano</h2>
-    <p>
-      Usando l'app puoi registrare veicoli e animali domestici — nome, targa, marca, modello, razza,
-      data di nascita, numero di microchip — le loro scadenze, i promemoria e le spese sostenute, con
-      importi, date e note.
-    </p>
-    <p>
-      Questi dati vengono salvati <strong>esclusivamente in un archivio locale sul tuo
-        dispositivo</strong>, nell'area riservata all'app. Non vengono inviati da nessuna parte, e
-      nemmeno chi ha sviluppato l'app può vederli.
-    </p>
+    <!-- ENGLISH -->
+    <div data-lang="en">
 
-    <h2>Backup: l'unico momento in cui i dati escono dal telefono</h2>
-    <p>
-      Dalle impostazioni puoi esportare tutti i tuoi dati in un file. Succede <strong>solo quando lo
-        chiedi tu</strong>, e sei tu a scegliere dove finisce il file attraverso il menu di condivisione
-      del tuo telefono: un servizio di archiviazione online, un messaggio, un'altra app, la memoria del
-      dispositivo.
-    </p>
-    <p>
-      Da quel momento quel file è sotto il tuo controllo e segue le regole del servizio dove hai scelto
-      di metterlo. Contiene tutti i tuoi dati in chiaro, in un formato leggibile: trattalo come
-      tratteresti un documento personale.
-    </p>
-    <p>L'app non partecipa a questa scelta e non conserva alcuna copia del file.</p>
+      <h1>Privacy Policy</h1>
+      <p class="meta">
+        App: <strong>MyScadenze</strong><br>
+        Last updated: <span>11 August 2026</span>
+      </p>
 
-    <h2>Notifiche</h2>
-    <p>
-      I promemoria sono programmati e mostrati dal tuo telefono. Il testo degli avvisi viene composto
-      sul dispositivo e non passa da alcun server: nessuna notifica push, nessun servizio di
-      messaggistica.
-    </p>
+      <div class="sintesi">
+        <p><strong>This app does not collect, transmit or share any data.</strong></p>
+        <p>
+          Everything you enter stays on your phone. There is no account, no server, no usage analytics,
+          no advertising and no third-party services. The published version of the app doesn't even have
+          permission to access the Internet.
+        </p>
+      </div>
 
-    <h2>Permessi richiesti</h2>
-    <ul>
-      <li>
-        <strong>Notifiche</strong> — per mostrarti i promemoria delle scadenze. È la funzione
-        principale dell'app.
-      </li>
-      <li>
-        <strong>Avvio al riavvio del dispositivo</strong> — quando spegni e riaccendi il telefono, il
-        sistema cancella tutti gli avvisi programmati: questo permesso serve solo a rimetterli in coda,
-        così non smetti di ricevere i promemoria che avevi impostato.
-      </li>
-    </ul>
-    <p>
-      L'app non chiede accesso a posizione, fotocamera, microfono, contatti, rubrica o archivio.
-    </p>
+      <h2>What data you enter, and where it stays</h2>
+      <p>
+        Using the app you can record vehicles and pets — name, number plate, make, model, breed, date of
+        birth, microchip number — their deadlines, reminders and the expenses you incur, with amounts,
+        dates and notes.
+      </p>
+      <p>
+        This data is saved <strong>exclusively in local storage on your device</strong>, in the area
+        reserved for the app. It is not sent anywhere, and not even the app's developer can see it.
+      </p>
 
-    <h2>Cancellare i tuoi dati</h2>
-    <p>
-      <strong>Disinstallare l'app elimina definitivamente tutti i dati</strong> che contiene. Non
-      essendoci alcun server, non resta copia da nessuna parte e non c'è nulla da richiedere a nessuno.
-    </p>
-    <p>
-      Attenzione: i file di backup che hai esportato <strong>non</strong> vengono eliminati insieme
-      all'app. Se non li vuoi più, cancellali tu dal luogo in cui li hai salvati.
-    </p>
+      <h2>Backups: the only time data leaves your phone</h2>
+      <p>
+        From the settings you can export all your data to a file. This happens <strong>only when you ask
+          it to</strong>, and you choose where the file goes through your phone's share menu: an online
+        storage service, a message, another app, the device's own storage.
+      </p>
+      <p>
+        From that moment the file is under your control and follows the rules of the service where you
+        chose to put it. It contains all your data in the clear, in a readable format: treat it as you
+        would a personal document.
+      </p>
+      <p>The app takes no part in this choice and keeps no copy of the file.</p>
 
-    <h2>Minori</h2>
-    <p>
-      L'app non è rivolta ai bambini e non raccoglie consapevolmente dati di minori. Del resto, non
-      raccoglie dati di nessuno.
-    </p>
+      <h2>Notifications</h2>
+      <p>
+        Reminders are scheduled and shown by your phone. The text of the alerts is composed on the device
+        and does not pass through any server: no push notifications, no messaging service.
+      </p>
 
-    <h2>Modifiche a questa informativa</h2>
-    <p>
-      Se in futuro l'app introdurrà funzioni che comportano il trattamento di dati — per esempio un
-      account con la sincronizzazione fra più dispositivi — questa informativa verrà aggiornata
-      <strong>prima</strong> che quelle funzioni siano disponibili, e la modifica sarà evidenziata in
-      questa pagina.
-    </p>
+      <h2>Permissions requested</h2>
+      <ul>
+        <li>
+          <strong>Notifications</strong> — to show you deadline reminders. This is the app's main
+          function.
+        </li>
+        <li>
+          <strong>Start at device boot</strong> — when you turn your phone off and on again, the system
+          clears all scheduled alerts: this permission only serves to queue them again, so you don't stop
+          receiving the reminders you had set.
+        </li>
+      </ul>
+      <p>
+        The app does not request access to location, camera, microphone, contacts, address book or
+        storage.
+      </p>
 
-    <h2>Contatti</h2>
-    <p>
-      Per qualunque domanda su questa informativa puoi scrivere a
-      <span>giftgenius.ad@gmail.com</span>.
-    </p>
+      <h2>Deleting your data</h2>
+      <p>
+        <strong>Uninstalling the app permanently deletes all the data</strong> it contains. As there is
+        no server, no copy remains anywhere and there is nothing to request from anyone.
+      </p>
+      <p>
+        Note: the backup files you have exported are <strong>not</strong> deleted along with the app. If
+        you no longer want them, delete them yourself from wherever you saved them.
+      </p>
 
-    <footer>
-      MyScadenze — scadenze e spese di veicoli, animali e casa, tutto sul tuo telefono.
-    </footer>
+      <h2>Children</h2>
+      <p>
+        The app is not directed at children and does not knowingly collect data from minors. Then again,
+        it collects no one's data.
+      </p>
+
+      <h2>Changes to this policy</h2>
+      <p>
+        If in the future the app introduces features that involve processing data — for example an
+        account with synchronisation across devices — this policy will be updated <strong>before</strong>
+        those features become available, and the change will be highlighted on this page.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        For any questions about this policy you can write to
+        <span>giftgenius.ad@gmail.com</span>.
+      </p>
+
+      <footer>
+        MyScadenze — deadlines and expenses for vehicles, pets and home, all on your phone.
+      </footer>
+
+    </div>
 
   </main>
+
+  <script>
+    (function () {
+      var titles = {
+        it: 'Informativa sulla privacy — MyScadenze',
+        en: 'Privacy Policy — MyScadenze'
+      };
+
+      function apply(lang) {
+        document.documentElement.lang = lang;
+        document.title = titles[lang];
+        document.querySelectorAll('[data-lang]').forEach(function (el) {
+          el.hidden = el.getAttribute('data-lang') !== lang;
+        });
+        document.querySelectorAll('[data-switch]').forEach(function (a) {
+          a.setAttribute('aria-current', a.getAttribute('data-switch') === lang ? 'true' : 'false');
+        });
+      }
+
+      // Priorità: parametro ?lang= passato dall'app → lingua del browser → italiano.
+      var pick = new URLSearchParams(location.search).get('lang');
+      if (pick !== 'it' && pick !== 'en') {
+        pick = (navigator.language || 'it').toLowerCase().indexOf('en') === 0 ? 'en' : 'it';
+      }
+      apply(pick);
+
+      document.querySelectorAll('[data-switch]').forEach(function (a) {
+        a.addEventListener('click', function (e) {
+          e.preventDefault();
+          var lang = a.getAttribute('data-switch');
+          apply(lang);
+          history.replaceState(null, '', location.pathname + '?lang=' + lang);
+        });
+      });
+    })();
+  </script>
 </body>
 
 </html>
